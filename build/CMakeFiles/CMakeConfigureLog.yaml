@@ -1,0 +1,1705 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+    searched_directories:
+      - "/home/thomas/.local/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Linux - 6.1.0-41-amd64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+    searched_directories:
+      - "/home/thomas/.local/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+    searched_directories:
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc"
+      - "/usr/local/bin/arm-none-eabi-gcc"
+      - "/usr/bin/arm-none-eabi-gcc"
+      - "/bin/arm-none-eabi-gcc"
+      - "/usr/local/games/arm-none-eabi-gcc"
+      - "/usr/games/arm-none-eabi-gcc"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/local/share/cmake-4.2/Modules/"
+    found: "/usr/local/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m4;-mthumb
+      Build flags: -ffreestanding
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_exit): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-exit.o)
+      exit.c:(.text.exit+0x14): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_close): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-closer.o)
+      closer.c:(.text._close_r+0xc): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x12): undefined reference to `_lseek'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_lseek): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-lseekr.o)
+      lseekr.c:(.text._lseek_r+0x12): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x12): undefined reference to `_read'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_read): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-readr.o)
+      readr.c:(.text._read_r+0x12): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x12): undefined reference to `_write'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_write): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-writer.o)
+      writer.c:(.text._write_r+0x12): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_sbrk): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-sbrkr.o)
+      sbrkr.c:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/local/share/cmake-4.2/Modules/"
+    found: "/usr/local/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m4;-mthumb
+      Build flags: -ffreestanding
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/4.2.0-rc4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-dlltool"
+      - "/home/thomas/.local/bin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/bin/arm-none-eabi-dlltool"
+      - "/usr/local/games/arm-none-eabi-dlltool"
+      - "/usr/games/arm-none-eabi-dlltool"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/dlltool"
+      - "/home/thomas/.local/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/games/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-tapi"
+      - "/home/thomas/.local/bin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/bin/arm-none-eabi-tapi"
+      - "/usr/local/games/arm-none-eabi-tapi"
+      - "/usr/games/arm-none-eabi-tapi"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/tapi"
+      - "/home/thomas/.local/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/games/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-15.2"
+      - "arm-none-eabi-gcc-ar-15"
+      - "arm-none-eabi-gcc-ar15"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/games/arm-none-eabi-gcc-ar-15.2"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/bin/arm-none-eabi-gcc-ar-15"
+      - "/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-15"
+      - "/usr/games/arm-none-eabi-gcc-ar-15"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/bin/arm-none-eabi-gcc-ar15"
+      - "/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/local/games/arm-none-eabi-gcc-ar15"
+      - "/usr/games/arm-none-eabi-gcc-ar15"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-15.2"
+      - "arm-none-eabi-gcc-ranlib-15"
+      - "arm-none-eabi-gcc-ranlib15"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-15.2"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-15"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib15"
+      - "/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib15"
+      - "/usr/games/arm-none-eabi-gcc-ranlib15"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+    searched_directories:
+      - "/home/thomas/.local/bin/arm-none-eabi-g++"
+      - "/usr/local/bin/arm-none-eabi-g++"
+      - "/usr/bin/arm-none-eabi-g++"
+      - "/bin/arm-none-eabi-g++"
+      - "/usr/local/games/arm-none-eabi-g++"
+      - "/usr/games/arm-none-eabi-g++"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake-4.2/Modules/"
+    found: "/usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m4;-mthumb
+      Build flags: -ffreestanding
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_exit): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-exit.o)
+      exit.c:(.text.exit+0x14): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_close): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-closer.o)
+      closer.c:(.text._close_r+0xc): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x12): undefined reference to `_lseek'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_lseek): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-lseekr.o)
+      lseekr.c:(.text._lseek_r+0x12): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x12): undefined reference to `_read'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_read): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-readr.o)
+      readr.c:(.text._read_r+0x12): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x12): undefined reference to `_write'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_write): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-writer.o)
+      writer.c:(.text._write_r+0x12): dangerous relocation: unsupported relocation
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_sbrk): Unknown destination type (ARM/Thumb) in /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(libc_a-sbrkr.o)
+      sbrkr.c:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake-4.2/Modules/"
+    found: "/usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m4;-mthumb
+      Build flags: -ffreestanding
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/4.2.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-15.2"
+      - "arm-none-eabi-gcc-ar-15"
+      - "arm-none-eabi-gcc-ar15"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/games/arm-none-eabi-gcc-ar-15.2"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/bin/arm-none-eabi-gcc-ar-15"
+      - "/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-15"
+      - "/usr/games/arm-none-eabi-gcc-ar-15"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/bin/arm-none-eabi-gcc-ar15"
+      - "/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/local/games/arm-none-eabi-gcc-ar15"
+      - "/usr/games/arm-none-eabi-gcc-ar15"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-15.2"
+      - "arm-none-eabi-gcc-ranlib-15"
+      - "arm-none-eabi-gcc-ranlib15"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-15.2"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-15"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib15"
+      - "/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib15"
+      - "/usr/games/arm-none-eabi-gcc-ranlib15"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-"
+      - "/usr/games/arm-none-eabi-gcc-ar-"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar-"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-"
+      - "/usr/games/arm-none-eabi-gcc-ar-"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+      - "/home/thomas/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+    searched_directories:
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-"
+      - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/thomas/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-"
+    found: "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/thomas/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac"
+      binary: "/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-ffreestanding"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostdlib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56f63/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_56f63.dir/build.make CMakeFiles/cmTC_56f63.dir/build
+        gmake[1]: Entering directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac'
+        Building C object CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj
+        /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb   -ffreestanding    -v -o CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_56f63.dir/'
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v7e-m/nofp -iprefix /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_56f63.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /tmp/ccKf4fua.s
+        GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: b188e82d73c14327741f71b398212fe0
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_56f63.dir/'
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj /tmp/ccKf4fua.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_56f63
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f63.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_56f63' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_56f63.'
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLWwamU.res --sysroot=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_56f63 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj
+        /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_56f63' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_56f63.'
+        /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding  -nostdlib -v CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj -o cmTC_56f63
+        gmake[1]: Leaving directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56f63/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_56f63.dir/build.make CMakeFiles/cmTC_56f63.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac']
+        ignore line: [Building C object CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb   -ffreestanding    -v -o CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_56f63.dir/']
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v7e-m/nofp -iprefix /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_56f63.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /tmp/ccKf4fua.s]
+        ignore line: [GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b188e82d73c14327741f71b398212fe0]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_56f63.dir/']
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj /tmp/ccKf4fua.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_56f63]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f63.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_56f63' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_56f63.']
+        link line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLWwamU.res --sysroot=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_56f63 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj]
+          arg [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccLWwamU.res] ==> ignore
+          arg [--sysroot=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_56f63] ==> ignore
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib]
+          arg [CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj] ==> ignore
+        ignore line: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_56f63' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_56f63.']
+        ignore line: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding  -nostdlib -v CMakeFiles/cmTC_56f63.dir/CMakeCCompilerABI.c.obj -o cmTC_56f63]
+        ignore line: [gmake[1]: Leaving directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-DYj3Ac']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v7e-m/nofp]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v7e-m/nofp]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v7e-m/nofp;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF"
+      binary: "/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-ffreestanding"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-nostdlib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9c10/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9c10.dir/build.make CMakeFiles/cmTC_a9c10.dir/build
+        gmake[1]: Entering directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF'
+        Building CXX object CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb   -ffreestanding    -v -o CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_a9c10.dir/'
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m/nofp -iprefix /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a9c10.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /tmp/cct9IxEp.s
+        GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 11dcbadfa8b298132a6bf615d82ed1e4
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_a9c10.dir/'
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cct9IxEp.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a9c10
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c10.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++
+        COLLECT_LTO_WRAPPER=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_a9c10' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_a9c10.'
+         /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNpkv1x.res --sysroot=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_a9c10 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_a9c10' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_a9c10.'
+        /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -ffreestanding  -nostdlib -v CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a9c10
+        gmake[1]: Leaving directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/backward]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/backward;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9c10/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a9c10.dir/build.make CMakeFiles/cmTC_a9c10.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb   -ffreestanding    -v -o CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_a9c10.dir/']
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m/nofp -iprefix /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a9c10.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -mlibarch=armv7e-m -march=armv7e-m -version -ffreestanding -o /tmp/cct9IxEp.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 11dcbadfa8b298132a6bf615d82ed1e4]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_a9c10.dir/']
+        ignore line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv7e-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cct9IxEp.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a9c10]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c10.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COMPILER_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_a9c10' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_a9c10.']
+        link line: [ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNpkv1x.res --sysroot=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_a9c10 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj]
+          arg [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNpkv1x.res] ==> ignore
+          arg [--sysroot=/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a9c10] ==> ignore
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
+          arg [-L/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib]
+          arg [CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+        ignore line: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-ffreestanding' '-nostdlib' '-v' '-o' 'cmTC_a9c10' '-mfloat-abi=soft' '-mlibarch=armv7e-m' '-march=armv7e-m' '-dumpdir' 'cmTC_a9c10.']
+        ignore line: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -ffreestanding  -nostdlib -v CMakeFiles/cmTC_a9c10.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a9c10]
+        ignore line: [gmake[1]: Leaving directory '/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/CMakeScratch/TryCompile-lZnRiF']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v7e-m/nofp]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v7e-m/nofp] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v7e-m/nofp]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        collapse library dir [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m/nofp;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v7e-m/nofp;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc;/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+...

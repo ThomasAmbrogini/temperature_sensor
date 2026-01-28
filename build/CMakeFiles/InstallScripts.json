@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/thomas/dev/projects/github/temperature_sensor/build/cmake_install.cmake",
+		"/home/thomas/dev/projects/github/temperature_sensor/build/coco/cmake_install.cmake",
+		"/home/thomas/dev/projects/github/temperature_sensor/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,30 @@
+src/CMakeFiles/TemperatureTaker.dir/main_stm32.cc.obj: \
+ /home/thomas/dev/projects/github/temperature_sensor/src/main_stm32.cc \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/device/st/stm32f4_device.hh \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/drivers/clk/st/stm32f4_clk_types.hh \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/drivers/clk/st/stm32f4_clk.hh \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/drivers/clk/st/stm32f4_clk_util.hh \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/types.hh \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint-gcc.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/util/math.hh \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/coco/util/type_traits.hh \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/vendor/st/ll/stm32f4xx_ll_rcc.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/vendor/st/device/stm32f4xx.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/vendor/st/device/stm32f446xx.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/arch/arm/cmsis/core_cm4.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/arch/arm/cmsis/cmsis_version.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/arch/arm/cmsis/cmsis_compiler.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/arch/arm/cmsis/cmsis_gcc.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/arm_acle.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/arch/arm/cmsis/m-profile/cmsis_gcc_m.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/arch/arm/cmsis/m-profile/armv7m_mpu.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/vendor/st/device/system_stm32f4xx.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/limits \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
+ /opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/pstl/pstl_config.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/vendor/st/ll/stm32f4xx_ll_pwr.h \
+ /home/thomas/dev/projects/github/temperature_sensor/coco/include/vendor/st/ll/stm32f4xx_ll_system.h

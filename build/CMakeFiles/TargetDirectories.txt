@@ -1,0 +1,7 @@
+/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/edit_cache.dir
+/home/thomas/dev/projects/github/temperature_sensor/build/CMakeFiles/rebuild_cache.dir
+/home/thomas/dev/projects/github/temperature_sensor/build/coco/CMakeFiles/edit_cache.dir
+/home/thomas/dev/projects/github/temperature_sensor/build/coco/CMakeFiles/rebuild_cache.dir
+/home/thomas/dev/projects/github/temperature_sensor/build/src/CMakeFiles/TemperatureTaker.dir
+/home/thomas/dev/projects/github/temperature_sensor/build/src/CMakeFiles/edit_cache.dir
+/home/thomas/dev/projects/github/temperature_sensor/build/src/CMakeFiles/rebuild_cache.dir
